@@ -1,0 +1,286 @@
+    1  ls
+    2  ls -al
+    3  git --version
+    4  ssh-keygen -t RSA
+    5  ls
+    6  cat sshkeys.pub
+    7  ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC5GXy5bEj2bn2iDWcX1PNkrGXZQfdNCW7lXYKguuZeTiBBA3jch4axkLoFcliXaC40Y5M39wD3qV9DX0iCpKk5QmBLOQDDxLsgKFWOl5s1shuqp/ey67Q5VR1bDUbgQbhCclear
+    8  ls
+    9  cat sshkeys.pub
+   10  git clone git@github.com:vamsikrishna1410/cs102-git-essentials.git
+   11  ls
+   12  rm sshkeys
+   13  ls
+   14  rm sshkeys.pub
+   15  ls
+   16  ssh-keygen -t RSA
+   17  ls
+   18  ls -al
+   19  cat .ssh
+   20  ls
+   21  cd .ssh
+   22  ls
+   23  cat id_rsa.pub
+   24  cd
+   25  mkdir Github
+   26  cd Github
+   27  git clone git@github.com:vamsikrishna1410/cs102-git-essentials.git
+   28  ls
+   29  ls -al
+   30  git remote -v
+   31  ls
+   32  ls -al
+   33  cd cs102-git-essentials
+   34  ls
+   35  ls a-l
+   36  ls -al
+   37  git remote -v
+   38  cd
+   39  cd Github
+   40  touch cs102-lecture-notes.txt
+   41  git add cs102-lecture-notes.txt
+   42  cd cs102-git-essentials
+   43  touch cs102-lecture-notes.txt
+   44  git add cs102-lecture-notes.txt
+   45  git commit -m "local:added cs102 lecture notes"
+   46  git push origin main
+   47  git push origin master
+   48  git push origin main
+   49  git push origin master
+   50  git pull origin master
+   51  ls
+   52  cat cs102-lecture-notes.txt
+   53  cat README.md
+   54  ls -al
+   55  cd Github/cs102-git-essentials
+   56  ls
+   57  vim README.md
+   58  cd Github/cs102-git-essentials
+   59  vim README.md
+   60  cat README.md
+   61  vim README.md
+   62  ls
+   63  cat README.md
+   64  git add README.md
+   65  git branch --show-current
+   66  git --version
+   67  git rev-parse --abbrev-ref HEAD
+   68  clear
+   69  git rev-parse --abbrev-ref HEAD
+   70  cd Github/cs102-git-essentials
+   71  ls
+   72  cat README.md
+   73  git add README.md
+   74  git push origin master
+   75  git commit -a -m 'updated README.md'
+   76  git push origin master
+   77  git fetch origin master
+   78  git push origin master
+   79  git pull origin master
+   80  git push origin master
+   81  cd 
+   82  cd .ssh
+   83  ls
+   84  cat id_rsa.pub
+   85  cd
+   86  cd cs102-git-essentials
+   87  cd Github/cs102-git-essentials
+   88  ls
+   89  git init
+   90  git diff --staged
+   91  git add README.md
+   92  git commit -a -m 'updated README.md'
+   93  git push origin master
+   94  git clone https://github.com/ak160/cs102-git-essentials.git
+   95  ls
+   96  cd cs102-git-essentials
+   97  ls
+   98  cat flip_card.html
+   99  cd ..
+  100  cat > cs102-imp.txt
+  101  git commit --amend
+  102  git push origin master
+  103  git init
+  104  git add cs102-imp.txt
+  105  git push origin master
+  106  git commit -a -m 'local'
+  107  git push origin master
+  108  ls
+  109  rm cs102-git-essentials
+  110  rm -r cs102-git-essentials
+  111  clera
+  112  clear
+  113  ls
+  114  cat cs102-imp.txt
+  115  git log
+  116  clear
+  117  git add cs102-imp.txt
+  118  git log
+  119  git add cs102-imp.txt
+  120  git commit --amend
+  121  ls -la ~/.ssh | grep 'id_rsa'
+  122  ls -al ~/.ssh | grep 'id_rsa'
+  123  git remote -v
+  124  cd Github/cs102-git-essentials
+  125  git remote -v
+  126  git status
+  127  git pull origin master
+  128  git status
+  129  git pull
+  130  git add cs102-imp.txt
+  131  git commit -m "local"
+  132  ls
+  133  cd
+  134  clear
+  135  ls
+  136  cd Github
+  137  ls
+  138  cd
+  139  clear
+  140  ls
+  141  cd Github
+  142  ls
+  143  cd cs102-git-essentials
+  144  ls
+  145  cd
+  146  cd .ssh
+  147  ls
+  148  cat known_hosts
+  149  cat id_rsa.pub
+  150  cd
+  151  clear
+  152  ssh-keygen -t RSA
+  153  cd .ssh
+  154  ls
+  155  cat id_rsa.pub
+  156  cd
+  157  clear
+  158  cd Github
+  159  ls
+  160  git clone git@github.com:gvkvamsi1410/cs102-git.git
+  161  ls
+  162  cd cs102-git
+  163  ls
+  164  git status
+  165  touch cs102-notes.txt
+  166  git add cs102-notes.txt
+  167  git commit -m "local:added notes"
+  168  git push origin master
+  169  git pull origin master
+  170  ls
+  171  cat README.md
+  172  vim README.md
+  173  cat README.md
+  174  git add README.md
+  175  git commit -m "update2:summary added"
+  176  git push origin master
+  177  git log
+  178  cat > cs102-imp.txt
+  179  git add cs102-imp.txt
+  180  git commit --amend "new imp one"
+  181  git commit --amend
+  182  git push origin master
+  183  ls
+  184  rm cs102-imp.txt
+  185  vim README.md
+  186  git add README.md
+  187  git commit -m "new edit"
+  188  git push origin master
+  189  git init
+  190  clear
+  191  git --config
+  192  git config
+  193  git config gvkvamsi1410.vamsi14100@gmail.com
+  194  git Github/cs102-git
+  195  cd Github/cs102-git
+  196  git config gvkvamsi1410.vamsi14100@gmail.com
+  197  echo $?
+  198  git config --list --show-origin
+  199  git config
+  200  cd Github
+  201  ls
+  202  git clone git@github.com:gvkvamsi1410/2203111-lab-exam.git
+  203  ls
+  204  cd
+  205  git clone git@github.com:gvkvamsi1410/2203111-lab-exam.git
+  206  ls
+  207  cd Github
+  208  cd
+  209  cd 2203111-lab-exam
+  210  vim README.md
+  211  cd
+  212  git clone https://github.com/tusharlone/cs102-git-essentials.git
+  213  ls
+  214  cd cs102-git-essentials
+  215  ls
+  216  cat README.md
+  217  vim ca_500.csv
+  218  git pull origin main
+  219  ls
+  220  cp ca_500.csv us_500.csv ..
+  221  cd
+  222  ls
+  223  cp ca_500.cv us_500.csv 2203111-lab-exam
+  224  cp ca_500.csv us_500.csv 2203111-lab-exam
+  225  cd 2203111-lab-exam
+  226  ls
+  227  wc -l ca_500.csv
+  228  wc -l us_500.csv
+  229  head -n 1 ca_500.csv
+  230  head -n 1 us_500.csv
+  231  grep -iw "Montreal" ca_500.csv
+  232  touch ca_city_Montreal.csv
+  233  head -n 1 ca_500.csv > ca_city_Montreal.csv
+  234  cat ca_city_Montreal.csv
+  235  grep -iw "Montreal" ca_500.csv >> ca_city_Montreal.csv
+  236  cat ca_city_Montreal.csv
+  237  ls
+  238  vim 2203111_data_filter.sh
+  239  bash 2203111_data_filter.sh
+  240  vim 2203111_data_filter.sh
+  241  bash 2203111_data_filter.sh ca_500.csv city Montreal
+  242  vim 2203111_data_filter.sh
+  243  bash 2203111_data_filter.sh ca_500.csv city Montreal
+  244  vim 2203111_data_filter.sh
+  245  bash 2203111_data_filter.sh ca_500.csv city Montreal
+  246  ls
+  247  ls -al
+  248  cat ca_city_Montreal.csv
+  249  vim 2203111_data_filter.sh
+  250  bash 2203111_data_filter.sh ca_500.csv city montreal
+  251  ls
+  252  ls -al
+  253  vim 2203111_data_filter.sh
+  254  bash 2203111_data_filter.sh ca_500.csv city montreal
+  255  vim 2203111_data_filter.sh
+  256  bash 2203111_data_filter.sh ca_500.csv city montreal
+  257  ls -al
+  258  cat ca_city_montreal.csv
+  259  vim 2203111_data_filter.sh
+  260  bash 2203111_data_filter.sh ca_500.csv city montreal
+  261  vim 2203111_data_filter.sh
+  262  bash 2203111_data_filter.sh ca_500.csv city montreal
+  263  cat ca_city_montreal.csv
+  264  rm ca_city_montreal.csv
+  265  ls
+  266  bash 2203111_data_filter.sh ca_500.csv city montreal
+  267  cat ca_city_montreal.csv
+  268  vim 2203111_data_filter.sh
+  269  rm ca_city_montreal.csv
+  270  bash 2203111_data_filter.sh ca_500.csv city montreal
+  271  cat ca_city_montreal.csv
+  272  bash 2203111_data_filter.sh us_500.csv city Miami
+  273  ls
+  274  cat us_city_Miami.csv
+  275  mkdir code
+  276  mv *.sh code
+  277  cd code
+  278  ls
+  279  cd
+  280  cd 2203111-lab-exam
+  281  mkdir data
+  282  mv *.csv data
+  283  cd data
+  284  ls
+  285  cd ..
+  286  history > 2203111_history.txt
