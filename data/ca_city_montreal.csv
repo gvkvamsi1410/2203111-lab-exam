@@ -1,0 +1,3 @@
+file name = ca_500.csv ;field name = city ; field value = montreal
+501 ca_500.csv
+"first_name","last_name","company_name","address","city","province","postal","phone1","phone2","email","web"

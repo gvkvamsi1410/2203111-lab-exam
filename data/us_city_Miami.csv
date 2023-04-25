@@ -1,0 +1,3 @@
+file name = us_500.csv ;field name = city ; field value = Miami
+501 us_500.csv
+"first_name","last_name","company_name","address","city","county","state","zip","phone1","phone2","email","web"
